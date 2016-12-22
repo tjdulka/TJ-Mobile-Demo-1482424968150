@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TJ-Mobile-Demo
+  host: TJ-Mobile-Demo
+  disk_quota: 1024M
+  services:
+  - TJ-Mobile-Demo-AdvancedMobileAccess
+  - TJ-Mobile-Demo-imfpush
+  - TJ-Mobile-Demo-cloudantNoSQLDB
